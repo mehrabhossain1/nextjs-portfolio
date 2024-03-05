@@ -1,3 +1,4 @@
+import Navbar from "@/components/Shared/Navbar";
 import React from "react";
 
 const HomePage = () => {
