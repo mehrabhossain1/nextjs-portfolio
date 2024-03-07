@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 sticky top-0">
+    <div className="navbar bg-gradient-to-r from-cyan-500 via-cyan-200 to-transparent fixed top-0 shadow-lg">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
