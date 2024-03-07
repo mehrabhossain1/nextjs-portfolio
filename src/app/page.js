@@ -1,9 +1,10 @@
-import Navbar from "@/components/Shared/Navbar";
-import React from "react";
+import Image from "next/image";
+import bg from "@/assets/herobg.jpg";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center">
+      {/* <Image src={bg} alt="hero bg image" /> */}
       <h1 className="text-5xl">Hey, I&apos;m Mehrab Hossain</h1>
       <p>
         A Frontend focused Mern Stack Developer building the Frontend of
