@@ -1,7 +1,6 @@
+import Navbar from "@/components/Shared/Navbar";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Shared/Navbar";
-import Skills from "./skills/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
