@@ -1,4 +1,3 @@
-import Image from "next/image";
 import bg from "@/assets/herobg.jpg";
 
 const HomePage = () => {
