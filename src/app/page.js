@@ -1,3 +1,5 @@
+"use client";
+
 import bg from "@/assets/herobg.jpg";
 import { motion } from "framer-motion";
 
@@ -17,17 +19,17 @@ const HomePage = () => {
       }}
     >
       <motion.h1
-        initial={{ x: -2000 }}
-        animate={{ x: 0 }}
-        transition={{ delay: 1 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
         className="text-5xl font-semibold"
       >
         Hey, I&apos;m Mehrab Hossain
       </motion.h1>
       <motion.p
-        initial={{ x: 2000 }}
-        animate={{ x: 0 }}
-        transition={{ delay: 1.5 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
         className="mt-10 text-2xl max-w-[70ch] text-center"
       >
         A Frontend focused Mern Stack Developer building the Frontend of
@@ -35,9 +37,9 @@ const HomePage = () => {
         product.
       </motion.p>
       <motion.div
-        initial={{ y: 1000 }}
-        animate={{ y: 0 }}
-        transition={{ delay: 2 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
         className="flex mt-10 gap-2"
       >
         <button className="btn bg-cyan-400 hover:bg-cyan-500 text-white">

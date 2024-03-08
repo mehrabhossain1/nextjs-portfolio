@@ -9,7 +9,7 @@ const Navbar = () => {
     <motion.div
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      transition={{ delay: 1 }}
+      transition={{ delay: 0.5 }}
       className="navbar bg-gradient-to-r from-cyan-500/70 via-cyan-200 to-transparent fixed top-0 shadow-lg"
     >
       <div className="navbar-start">
