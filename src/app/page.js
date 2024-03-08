@@ -1,4 +1,3 @@
-import Image from "next/image";
 import bg from "@/assets/herobg.jpg";
 import { motion } from "framer-motion";
 
